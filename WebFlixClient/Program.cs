@@ -18,7 +18,7 @@ namespace WebFlixClient
            
 
         }
-
+        //test comment
         private static async Task GetAllMovies(HttpClient client)
         {
             HttpResponseMessage response = await client.GetAsync("api/Movie");
